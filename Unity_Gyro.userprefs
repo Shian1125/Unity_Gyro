@@ -1,21 +1,8 @@
-<<<<<<< HEAD
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Unity_Teach_Tank/Assets/Script/Bullet.cs">
-    <Files>
-      <File FileName="../Unity_Teach_Tank/Assets/Script/Bullet.cs" Line="1" Column="1" />
-      <File FileName="../Unity_Teach_Tank/Assets/Script/Tank.cs" Line="1" Column="1" />
-=======
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Gyro2.cs">
     <Files>
-<<<<<<< HEAD
       <File FileName="Assets/Gyro2.cs" Line="1" Column="1" />
-=======
-      <File FileName="Assets/Gyro2.cs" Line="46" Column="3" />
->>>>>>> 5cb25fd993436bfb1381ba034b02da32a273ed21
->>>>>>> 558c79821f45f021ad4df9a634bf5ceebee961a5
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

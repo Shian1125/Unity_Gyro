@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{222F3451-B0AF-C44D-06A4-7A52AC40BB05}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{4B0271FF-6032-D57F-0236-108463B21EB9}"
-=======
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
 Project("{AC56B9BB-7254-4F6D-2A0A-E86960D9519A}") = "Unity_Gyro", "Assembly-CSharp.csproj", "{222F3451-B0AF-C44D-06A4-7A52AC40BB05}"
 EndProject
 Project("{AC56B9BB-7254-4F6D-2A0A-E86960D9519A}") = "Unity_Gyro", "Assembly-CSharp-Editor.csproj", "{4B0271FF-6032-D57F-0236-108463B21EB9}"
->>>>>>> 5cb25fd993436bfb1381ba034b02da32a273ed21
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,8 +20,10 @@ Global
 		{4B0271FF-6032-D57F-0236-108463B21EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B0271FF-6032-D57F-0236-108463B21EB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-<<<<<<< HEAD
-	GlobalSection(MonoDevelopProperties) = preSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+			GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 =======
 	GlobalSection(SolutionProperties) = preSolution
