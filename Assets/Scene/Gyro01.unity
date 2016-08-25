@@ -661,6 +661,7 @@ GameObject:
   - 92: {fileID: 963288799}
   - 124: {fileID: 963288798}
   - 81: {fileID: 963288797}
+  - 114: {fileID: 963288802}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -735,6 +736,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &963288802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 963288796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e91dae91dd34a38ad931f7b56d5c5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &995683917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,7 +1247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1500630167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1282,7 +1294,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1529531381}
-  - 114: {fileID: 1529531380}
   m_Layer: 0
   m_Name: GyroCam
   m_TagString: Untagged
@@ -1290,17 +1301,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1529531380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1529531379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63e91dae91dd34a38ad931f7b56d5c5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1529531381
 Transform:
   m_ObjectHideFlags: 0
