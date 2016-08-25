@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Gyro.cs" />
      <Compile Include="Assets\Gyro2.cs" />
+     <Compile Include="Assets\GyroCamera.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity5_13/Unity513.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

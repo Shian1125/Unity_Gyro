@@ -21,6 +21,8 @@ public class Gyro2 : MonoBehaviour {
 	public Text curZ;
 
 	public Text playerUI;
+
+	public Text enableText;
 	// The initials orientation
 	private float initialOrientationX;
 	private float initialOrientationY;
@@ -28,9 +30,17 @@ public class Gyro2 : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+		//check support Gyro
+		if(SystemInfo.supportsGyroscope){
+			Debug.Log("have gyro");
+			enableText.text = "Y";
+		}else{
+			Debug.Log("dont have gyro");
+			enableText.text = "N";
+		}
 		// Activate the gyroscope
 		Input.gyro.enabled = true;
-		
+
 		
 
 		// Save the firsts values
@@ -66,6 +76,7 @@ public class Gyro2 : MonoBehaviour {
 		atti = Input.gyro.attitude;
 		att.text = "Att: " + atti.eulerAngles.ToString();
 		playerUI.text = "Player: " + player.transform.rotation.eulerAngles.ToString();
+
 	}
 
 
